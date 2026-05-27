@@ -6,7 +6,7 @@ import (
 
 	_ "embed"
 
-	. "github.com/gaukas/clienthellod"
+	. "github.com/sippejw/clienthellod"
 )
 
 var mapValueToVLI = map[uint64][]byte{

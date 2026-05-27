@@ -15,13 +15,13 @@ It is worth noting that some web browsers may not choose to switch to QUIC proto
 ## Build 
 
 ```bash
-xcaddy build --with github.com/gaukas/clienthellod/modcaddy
+xcaddy build --with github.com/sippejw/clienthellod/modcaddy
 ```
 
 ### When build locally with changes 
 
 ```bash
-xcaddy build --with github.com/gaukas/clienthellod/modcaddy --with github.com/gaukas/clienthellod/=./
+xcaddy build --with github.com/sippejw/clienthellod/modcaddy --with github.com/sippejw/clienthellod/=./
 ```
 
 ## sample Caddyfile

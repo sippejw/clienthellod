@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/gaukas/clienthellod"
+	. "github.com/sippejw/clienthellod"
 
 	"github.com/refraction-networking/utls/dicttls"
 )
