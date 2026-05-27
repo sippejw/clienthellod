@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/gaukas/clienthellod/internal/utils"
+	"github.com/sippejw/clienthellod/internal/utils"
 )
 
 const (

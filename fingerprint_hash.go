@@ -7,7 +7,7 @@ import (
 	"hash"
 	"sort"
 
-	"github.com/gaukas/clienthellod/internal/utils"
+	"github.com/sippejw/clienthellod/internal/utils"
 )
 
 // updateU32 writes a u32 as 4 big-endian bytes.

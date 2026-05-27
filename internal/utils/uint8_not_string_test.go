@@ -13,12 +13,12 @@ type TestStruct struct {
 
 func TestUint8Arr(t *testing.T) {
 	testStruct := TestStruct{
-		Name:   "gaukas",
+		Name:   "sippejw",
 		Age:    18,
 		Topics: Uint8Arr{'H', 'e', 'l', 'l', 'o'},
 	}
 
-	// testStruct: {Name:gaukas Age:18 Topics:[72 101 108 108 111]}
+	// testStruct: {Name:sippejw Age:18 Topics:[72 101 108 108 111]}
 	_, err := json.Marshal(testStruct)
 	if err != nil {
 		t.Fatalf("json.Marshal error: %v", err)

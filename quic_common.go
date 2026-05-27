@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/gaukas/clienthellod/internal/utils"
+	"github.com/sippejw/clienthellod/internal/utils"
 	"golang.org/x/crypto/cryptobyte"
 )
 

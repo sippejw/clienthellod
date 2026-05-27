@@ -1,7 +1,7 @@
 # `clienthellod`: TLS ClientHello/QUIC Initial Packet reflection service
-![Go Build Status](https://github.com/gaukas/clienthellod/actions/workflows/go.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gaukas/clienthellod)](https://goreportcard.com/report/github.com/gaukas/clienthellod)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgaukas%2Fclienthellod.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgaukas%2Fclienthellod?ref=badge_shield&issueType=license)
+![Go Build Status](https://github.com/sippejw/clienthellod/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sippejw/clienthellod)](https://goreportcard.com/report/github.com/sippejw/clienthellod)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsippejw%2Fclienthellod.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsippejw%2Fclienthellod?ref=badge_shield&issueType=license)
 [![Go Doc](https://pkg.go.dev/badge/github.com/refraction-networking/water.svg)](https://pkg.go.dev/github.com/refraction-networking/water)
 
 `clienthellod`, read as "client-hello-D", is a TLS ClientHello/QUIC Initial Packet reflection service. It can be used to parses TLS ClientHello messages and QUIC Initial Packets into human-readable and highly programmable formats such as JSON. 
@@ -131,10 +131,10 @@ Implementations including Chrome/Chromium sends oversized Client Hello which doe
 
 ### Use with Caddy
 
-We also provide clienthellod as a Caddy Module in `modcaddy`, which you can use with Caddy to capture ClientHello messages and QUIC Client Initial Packets. See [modcaddy](https://github.com/gaukas/clienthellod/tree/master/modcaddy) for more details.
+We also provide clienthellod as a Caddy Module in `modcaddy`, which you can use with Caddy to capture ClientHello messages and QUIC Client Initial Packets. See [modcaddy](https://github.com/sippejw/clienthellod/tree/master/modcaddy) for more details.
 
 ## License
 
 This project is developed and distributed under Apache-2.0 license. 
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgaukas%2Fclienthellod.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgaukas%2Fclienthellod?ref=badge_large&issueType=license)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsippejw%2Fclienthellod.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsippejw%2Fclienthellod?ref=badge_large&issueType=license)

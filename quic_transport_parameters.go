@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gaukas/clienthellod/internal/utils"
+	"github.com/sippejw/clienthellod/internal/utils"
 	"github.com/refraction-networking/utls/dicttls"
 )
 
